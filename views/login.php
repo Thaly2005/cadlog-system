@@ -21,6 +21,7 @@
             </section>
             <button type="submit">Login</button>
         </form>
+        <a href="">Cadastre-se</a>
     </main>
 </body>
 </html>
