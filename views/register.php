@@ -16,6 +16,12 @@
             <input type="email" name="email" id="email" required>
             <label for="senha">Senha</label>
             <input type="password" name="senha" id="senha" required>
+            <label for="perfil">Perfil</label>
+            <select name="perfil" id="perfil">
+                <option value="admin">Admin</option>
+                <option value="gestor">Gestor</option>
+                <option value="colaborador">Colaborador</option>
+            </select>
         </form>
     </div>
 </body>
