@@ -22,7 +22,10 @@
                 <option value="gestor">Gestor</option>
                 <option value="colaborador">Colaborador</option>
             </select>
+
+            <button type="submit">Cadastrar</button>
         </form>
+        <a href="">Voltar ao Login</a>
     </div>
 </body>
 </html>
