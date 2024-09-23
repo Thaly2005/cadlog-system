@@ -3,13 +3,21 @@
 ## Índice
 
 [Descrição]()
+
 [Introdução]()
+
 [Funcionalidades]()
+
 [Tecnologias Utlizadas]()
+
 [Estruturas de Pastas]()
+
 [Tela de Login]()
+
 [Tela de Registro]()
+
 [Fontes Consultadas]()
+
 [Autores]()
 
 ## Descrição
