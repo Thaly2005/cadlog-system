@@ -46,4 +46,11 @@ A organização atual do projeto é a seguinte:
 
 A página de login está localizada em `views/login.php`, com os seguintes campos:
 - **Email**: Input para e-mail do usuário.
-- **Senha**: Input para a senha.
+- **Senha**: Input para a senha
+
+### Tela de Registro
+
+Localizada em `views/register.php`, permite que o usuário se registre escolhendo entre três perfis:
+- **Admin**
+- **Gestor**
+- **Colaborador**
