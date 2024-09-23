@@ -31,3 +31,13 @@ Atualmente, a aplicação conta com as seguintes funcionalidades:
 - **CSS3**: Para estilização das interfaces.
 - **MySQL**: Banco de dados relacional para armazenar informações de usuários.
 - **Git/GitHub**: Controle de versão e colaboração no projeto.
+
+## Estrutura de Pastas
+
+A organização atual do projeto é a seguinte:
+
+- **/views**: Páginas HTML para login e registro.
+- **/controllers**: Controladores que gerenciam a lógica da aplicação.
+- **/models**: Conectam a lógica ao banco de dados.
+- **/_css**: Contém o arquivo `style.css` responsável pela estilização.
+- **index.php**: Arquivo principal da aplicação.
