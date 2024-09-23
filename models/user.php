@@ -9,7 +9,7 @@ class User
     public static function findByEmail($email){
         $conn = Database::getConnection();
 
-        $stmt = $conn->prepare("SELECT * FROM usuarios WHERE email = :email");
+        $stmt = $conn->prepare("SELECT * FROM usuarios WHERE email = $email");
 
         // Executa a consulta com o e-mail passado como parâmetro
         $stmt->execute(['email' => $email]);

@@ -6,7 +6,7 @@ require 'controllers/DashboardController.php'; // Instancia o controlador de das
  
 // Cria instanciais dos controladores para utilizar seus metodos
 $authController = new AuthController();
-$userControler = new UserController();
+$userController = new UserController();
 $dashboard = new DashboardController();
  
 ?>
