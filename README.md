@@ -23,3 +23,11 @@ Atualmente, a aplicação conta com as seguintes funcionalidades:
 3. **Validação de Formulários**: Validação básica de campos de cadastro e login (ex: e-mail e senha obrigatórios).
 4. **Estilização**: Interface estilizada com foco em acessibilidade e cores predominantes (azul e dourado).
 5. **Estrutura Incremental**: O projeto será continuamente atualizado para incluir novas funcionalidades.
+
+## Tecnologias Utilizadas
+
+- **PHP**: Linguagem de programação para o back-end.
+- **HTML5**: Para a estruturação das páginas de login e cadastro.
+- **CSS3**: Para estilização das interfaces.
+- **MySQL**: Banco de dados relacional para armazenar informações de usuários.
+- **Git/GitHub**: Controle de versão e colaboração no projeto.
