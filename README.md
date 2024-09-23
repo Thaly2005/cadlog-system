@@ -36,8 +36,14 @@ Atualmente, a aplicação conta com as seguintes funcionalidades:
 
 A organização atual do projeto é a seguinte:
 
-- **/views**: Páginas HTML para login e registro.
-- **/controllers**: Controladores que gerenciam a lógica da aplicação.
-- **/models**: Conectam a lógica ao banco de dados.
-- **/_css**: Contém o arquivo `style.css` responsável pela estilização.
+- **views**: Páginas HTML para login e registro.
+- **controllers**: Controladores que gerenciam a lógica da aplicação.
+- **models**: Conectam a lógica ao banco de dados.
+- **_css**: Contém o arquivo `style.css` responsável pela estilização.
 - **index.php**: Arquivo principal da aplicação.
+
+### Tela de Login
+
+A página de login está localizada em `views/login.php`, com os seguintes campos:
+- **Email**: Input para e-mail do usuário.
+- **Senha**: Input para a senha.
