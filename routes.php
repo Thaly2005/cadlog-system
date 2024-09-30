@@ -1,20 +1,28 @@
 <?php
-// Inclui arquivos  de controlador necessarios para lidar com diferentes açoes
-require 'controllers/AuthController.php'; //  Instancia o controlador de autenticaçao
-require 'controllers/UserController.php'; // Instancia o controlador de usuario
-//require 'controllers/DashboardController.php'; // Instancia o controlador de dashboard
+// Inclui o arquivo de rotas do projeto
+require 'routes.php';
+?>
  
-// Cria instanciais dos controladores para utilizar seus metodos
+<?php
+// Inclui arquivos de controlador necessários para lidar com diferentes ações
+require 'controllers/AuthController.php'; // instancia controlador de autenticação
+require 'controllers/UserController.php'; // instancia o controlador de usuário
+require 'controllers/DashboardController.php'; // intancia controlador de dashboard
+ 
+// Cria instância dos controladores para utilizar seus métodos
 $authController = new AuthController();
 $userController = new UserController();
-//$dashboard = new DashboardController();
-
-//Coleta a ação do URL, se não houver ação definida, usa 'login' como padrão
-$action = $_GET('action') ?? 'login'; //Use operador de coalescencia nula (??) para definir 'login' se 'action' não estiver presente
-
+// $dashboradController = new DashboardController();
+ 
+// Coleta a ação da URL, se não ouver ação definida, usa 'login' como padrão
+$action = $_GET['action'] ?? 'login'; // Usa operador de coalescência nula (??) para definir 'login' se 'action' não estiver presente
+ 
 switch ($action){
     case 'login':
         $authController->login();
+        break;
+    case 'register':
+        $userController->register();
         break;
     default:
     $authController->login();
@@ -22,3 +30,4 @@ switch ($action){
 }
  
 ?>
+ 
