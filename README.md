@@ -1,6 +1,6 @@
 # Projeto - Aplicação de Cadastro e Login
 
-<img src="_img/cadastro.mp4">
+<img src="_img/cadastro.gif">
 
 <img src="_img/login.png">
 
