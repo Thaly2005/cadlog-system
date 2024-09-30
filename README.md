@@ -53,10 +53,24 @@ Atualmente, a aplicação conta com as seguintes funcionalidades:
 ## Tecnologias Utilizadas
 
 - **PHP**: Linguagem de programação para o back-end.
+  
+<img src="_img/php.png" width="30%">
+
 - **HTML5**: Para a estruturação das páginas de login e cadastro.
+  
+<img src="_img/html.png" width="30%">
+
 - **CSS3**: Para estilização das interfaces.
+
+<img src="_img/css.png" width="30%">
+  
 - **MySQL**: Banco de dados relacional para armazenar informações de usuários.
+
+<img src="_img/mysq.png" width="30%">
+
 - **Git/GitHub**: Controle de versão e colaboração no projeto.
+
+  <img src="_img/github.png" width="30%">
 
 ## Estrutura de Pastas
 
