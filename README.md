@@ -1,5 +1,9 @@
 # Projeto - Aplicação de Cadastro e Login
 
+<img src="_img/cadastro.mp4">
+
+<img src="_img/login.png">
+
 ## Índice
 
 [Descrição](#descri%C3%A7%C3%A3o)
