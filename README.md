@@ -66,7 +66,7 @@ Atualmente, a aplicação conta com as seguintes funcionalidades:
   
 - **MySQL**: Banco de dados relacional para armazenar informações de usuários.
 
-<img src="_img/mysq.png" width="30%">
+<img src="_img/mysql.png" width="30%">
 
 - **Git/GitHub**: Controle de versão e colaboração no projeto.
 
