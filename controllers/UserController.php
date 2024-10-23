@@ -1,31 +1,28 @@
 <?php
 class UserController
 {
-    // Funçao para registrar um novo usuario
+    // Função para registrar um novo usuário
     public function register(){
-        // Verifica se a requisiçao HTTP e do tipo POST 
+        // Verifica se a requisição HTTP é do tipo POST
         if($_SERVER['REQUEST_METHOD'] == 'POST'){
-            // Coleta dados enviados e armazena em um array 
+            // Coleta dados enviados e armazena em um array
             $data = [
                 'nome' => $_POST['nome'],
                 'email' => $_POST['email'],
                 'senha' => password_hash($_POST['senha'], PASSWORD_DEFAULT),    // Criptografa a senha
                 'perfil' => $_POST['perfil']
-
-
- 
             ];
  
-            // Chama o metodo create do Model para criar um novo usuario no BD
- 
+            // Chama o método create do Model para criar um novo usuário no BD
             User::create($data);
             header('Location: index.php');
-        }else{
+        } else {
             include 'views/register.php';
         }
-        }
     }
-
- ?>
- 
- 
+    public function list (){
+        $users = User::all();
+        include 'views/list_users.php';
+    }
+}
+?>
