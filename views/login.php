@@ -6,21 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="../_css/style.css">
-
-
 </head>
 <body>
     <main>
-        <form action="index.php?action=login" method="post">
+        <form action="" method="post">
             <section>
-
                 <label for="email">Email</label>
-                <input type="email" name="Nome" id="nome" required>
-
+                <input type="email" name="email" id="email" required>
             </section>
             <section>
                 <label for="senha">Senha</label>
-                <input type="password" name="senha" id="senha">
+                <input type="password" name="senha" id="senha" required>
             </section>
             <button type="submit">Login</button>
         </form>
