@@ -15,11 +15,14 @@ class UserController
  
             // Chama o método create do Model para criar um novo usuário no BD
             User::create($data);
+
             header('Location: index.php');
         } else {
             include 'views/register.php';
         }
     }
+
+    
     public function list (){
         $users = User::all();
         include 'views/list_users.php';

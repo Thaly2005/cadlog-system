@@ -1,9 +1,4 @@
 <?php
-// Inclui o arquivo de rotas do projeto
-require 'routes.php';
-?>
- 
-<?php
 // Inclui arquivos de controlador necessários para lidar com diferentes ações
 require 'controllers/AuthController.php'; // instancia controlador de autenticação
 require 'controllers/UserController.php'; // instancia o controlador de usuário
@@ -24,16 +19,14 @@ switch ($action){
     case 'register':
         $userController->register();
         break;
-    case 'dashboard';
-        $dashboradController->index();
+    case 'dashboard':
+        $dashboardController->index();
         break;
-    case 'list';
+    case 'list':
         $userController->list();
         break;
     default:
     $authController->login();
-    break;
+        break;
 }
- 
 ?>
- 
