@@ -4,6 +4,10 @@
 
 <img src="_img/login.png">
 
+<img src="_img/dashboard.png">
+
+<img src="_img/lista_usuario.png">
+
 ## Índice
 
 [Descrição](#descri%C3%A7%C3%A3o)
@@ -19,6 +23,8 @@
 [Tela de Login](#tela-de-login)
 
 [Tela de Registro](#tela-de-registro)
+
+[Tela de edição de usuário](#tela-de-edi%C3%A7%C3%A3o-de-usu%C3%A1rio)
 
 [Fontes Consultadas](#fontes-consultadas)
 
