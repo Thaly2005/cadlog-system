@@ -1,0 +1,80 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+div {
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Título */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+/* Estilo do formulário */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    padding: 12px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+/* Botão de ação principal */
+button[type="submit"] {
+    padding: 12px;
+    background-color: #ff6600; /* Laranja para ações */
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #e65c00; /* Laranja mais escuro no hover */
+}
+
+/* Link de navegação */
+a {
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #ff6600; /* Link no mesmo tom de laranja */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
