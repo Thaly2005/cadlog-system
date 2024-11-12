@@ -103,6 +103,15 @@ Localizada em `views/register.php`, permite que o usuário se registre escolhend
 
 Localizada em views/edit_user.php, permite a modificação dos dados do usuário, sendo disponível apenas para Admin e Gestor.
 
+
+### Função de Exclusão
+A aplicação permite a exclusão de usuários, controlada por níveis de permissão:
+
+- **Admin**: Pode excluir qualquer usuário. Ao clicar no botão "Excluir", é solicitada uma confirmação para prevenir exclusões acidentais.
+- **Gestor/Colaborador**: Não possuem permissão para excluir outros usuários.
+
+Esse controle de acesso garante que apenas perfis administrativos possam executar ações críticas, reforçando a segurança dos dados do sistema.
+
 ## Fontes Consultadas
 
 - Documentação oficial do [PHP](https://www.php.net/docs.php).
